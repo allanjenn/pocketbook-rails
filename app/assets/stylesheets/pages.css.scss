@@ -60,16 +60,19 @@ html, body {
     text-align: left;
 }
 
-.footer .container li {
+.footer nav li {
     display: inline-block;
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 10;    
+    padding: 13px;
 }
 
-.footer .container ul li:hover {
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .container nav li:hover {
     border: 1px white solid;
     border-radius: 3px;
+    padding: 9px;
 }
     
